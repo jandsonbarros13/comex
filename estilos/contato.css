@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+.center-menu {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid #1e6296;
+}
+.logo {
+  color: #1e6296;
+}
+.logo h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+.menu {
+  width: 80%;
+  text-align: right;
+}
+.menu a {
+  color: #1e6296;
+  font-size: 21px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+.menu a:hover {
+  color: #378ed1;
+}
+.menu .btn-vamos {
+  background-color: #091b29;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: white;
+  font-size: 21px;
+}
+.menu .btn-vamos:hover {
+  background-color: #6bb0e4;
+  color: white;
+}
+.logo-img {
+  width: 35px;
+  height: 35px;
+}
+
+.todo{
+  background: #121212;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: #fafafa;
+  border-radius: 14px;
+  margin: 14px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+  overflow: hidden;
+}
+
+.header{
+  background: linear-gradient(120deg, #232424 0%, #bfc0c2 100%);
+  padding: 24px;
+  text-align: center;
+  color: #FFF;
+}
+
+.form{
+  padding: 18px;
+}
+
+.form-content{
+  margin-bottom: 8px;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.form-content label{
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.form-content input {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  border: 2px solid #dfdfdf;
+}
+
+.form-content a{
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  visibility: hidden;
+}
+
+.form button{
+  background-color: #252525;
+  color: #FFF;
+  width: 100%;
+  border-radius: 14px;
+  padding: 10px;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.form-content.error input{
+  border-color: #ff3b25;
+}
+
+.form-content.error a{
+  color: #ff3b25;
+  visibility: visible;
+}
+footer {
+  background-color: #06090c;
+}
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration:  none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+.socialIcons a:hover {
+background-color: #111;
+transition: 0.7s;
+}
+.socialIcons a:hover i{
+color: white;
+transition: 0.7s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a {
+  opacity: 1;
+}
+.footerbtn {
+  background-color: #070c0f;
+  padding: 20px;
+  text-align: center;
+  min-width: 100%;
+}
+.footerbtn p {
+  color: white;
+  font-size: 1.5rem;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 8px 5px;
+}
+.capa {
+  background-image: url("../public/vagas.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 500px;
+}
+.container-vagas {
+  background-color: #070c0f;
+  color: white;
+  display: flex;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.vagas {
+  width: 300px;
+  height: 500px;
+  margin-left: 22px;
+  border: white solid 2px;
+  border-radius: 20px;
+}
+.vagas h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.vagas p {
+  font-size: 15px;
+  text-align: center;
+}
+.vagas button {
+  width: 100%;
+  border-radius: 20px;
+  height: 35px;
+  background-color: #1e6296;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.vagas button:hover {
+  background-color: white;
+  color: #06090c;
+  transition: 1s;
+}
+.vaga-img {
+  width: 297px;
+  height: 200px;
+  border-radius: 20px;
+}
+.trabalhe {
+  background-color: #070c0f;
+}
+.titulo-vagas {
+  margin-top: 60px;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 700px) {
+
+  .footerNav ul {
+    flex-direction: column;
+  }
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+  .capa {
+    background-image: url("../public/capa.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 200px;
+  }.container-vagas {
+    display: inline;
+  }.vagas {
+    margin-left: 25%;
+    margin-top: 30px;
+  }.titulo-vagas {
+    font-size: 2rem;
+  }.menu a {
+    font-size: 14px;
+  }
+  .menu .btn-vamos {
+    font-size: 10px;
+    width: 85px;
+    height: 30px;
+    overflow-y: hidden;
+  }
+}

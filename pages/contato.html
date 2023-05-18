@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comex Contados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../estilos/contato.css">
+  <link rel="shortcut icon" href="../public/logo-aba.png" type="image/x-icon">
+
+  <script src="../index.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="center-menu">
+      <div class="logo">
+        <h1 class="logo-comp">Comex <svg class="logo-img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M493.7 .9L299.4 75.6l2.3-29.3c1-12.8-12.8-21.5-24-15.1L101.3 133.4C38.6 169.7 0 236.6 0 309C0 421.1 90.9 512 203 512c72.4 0 139.4-38.6 175.7-101.3L480.8 234.3c6.5-11.1-2.2-25-15.1-24l-29.3 2.3L511.1 18.3c.6-1.5 .9-3.2 .9-4.8C512 6 506 0 498.5 0c-1.7 0-3.3 .3-4.8 .9zM192 192a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm16 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
+          </svg></h1>
+      </div>
+      <div class="menu">
+        <a href="../index.html">Home</a>
+        <a href="./sobre.html">Sobre</a>
+        <a href="./atuacao.html">Atuação</a>
+        <a href="./profissionais.html">Profissionais</a>
+        <a href="./contato.html">Contato</a>
+        <a href="./contato.html" class="btn-vamos">Vamos-la</a>
+      </div>
+    </div>
+  </header>
+  <div class="todo">
+    <div class="container">
+      <section class="header">
+        <h2>Cadastre-se e diga sua duvida</h2>
+      </section>
+
+      <form id="form" class="form">
+        <div class="form-content">
+          <label for="username">Nome do usuário</label>
+          <input type="text" id="username" placeholder="Digite o nome do usuario..." />
+          <a></a>
+        </div>
+
+        <div class="form-content">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Digite o seu email..." />
+          <a></a>
+        </div>
+
+        <div class="form-content">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Digite sua senha..." />
+          <a></a>
+        </div>
+
+        <div class="form-content">
+          <label for="password-confirmation">Confirmação de senha</label>
+          <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente..." />
+          <a></a>
+        </div>
+        <div class="form-content">
+          <label for="duvida">Diga sua duvida</label><br>
+          <textarea name="duvida" id="duvida" cols="85" rows="7" placeholder="Diga sua duvida"></textarea>
+          <a></a>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+  <div class="trabalhe">
+    <div class="capa"></div>
+    <h1 class="titulo-vagas">Principais vagas da semana</h1>
+    <div class="container-vagas">
+      <div class="vagas">
+        <img src="../public/vaga1.jpg" alt="vaga1" class="vaga-img">
+        <h1>Estagio em comercio exterior</h1>
+        <p>Cursando 3º ano Deverá estar cursando: Cursando Comércio Exterior. Acompanhar todas as atividades de
+          Comércio Exterior</p>
+        <button style="margin-top: 65px;" onclick="queroVaga()">candidatar-se</button>
+      </div>
+      <div class="vagas">
+        <img src="../public/img-vaga.jpg" alt="vaga1" class="vaga-img">
+        <h1>Representante Comercial - Comercio Exterior</h1>
+        <p>Realizar visitas aos clientes para apresentação de produtos e serviços e finalização da venda.</p>
+        <button style="margin-top: 50px;" onclick="queroVaga()">candidatar-se</button>
+
+      </div>
+      <div class="vagas">
+        <img src="../public/img-vaga2.jpg" alt="vaga1" class="vaga-img">
+        <h1>Assistente de Comércio Exterior</h1>
+        <p>Solicitação de Booking e logística de containers junto aos terminais e transportadoras para carregamento.</p>
+        <button style="margin-top: 86px;" onclick="queroVaga()">candidatar-se</button>
+
+      </div>
+      <div class="vagas">
+        <img src="../public/img-vaga3.webp" alt="vaga1" class="vaga-img">
+        <h1>Analista de Comércio Exterior</h1>
+        <p>Empresa localizada na cidade de Fortaleza/CE do ramo Logística, contrata Analista de Comércio Exterior.
+          Atribuições:
+          Cargo: Analista de comércio exterior pleno.</p>
+        <button style="margin-top: 40px;" onclick="queroVaga()">candidatar-se</button>
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footerContainer">
+      <div class="socialIcons">
+        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a>Projetos</a></li>
+          <li><a>Comex</a></li>
+          <li><a>Trabalhos</a></li>
+          <li><a>Exterior</a></li>
+        </ul>
+      </div>
+      <div class="footerbtn">
+        <p>Copiryght &copy;2023; Jandson Barros <span class="designer">Comex</span></p>
+      </div>
+    </div>
+  </footer>
+  <script src="../javascript/contato.js"></script>
+</body>
+
+</html>

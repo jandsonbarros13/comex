@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.center-menu {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid #1e6296;
+}
+.logo {
+  color: #1e6296;
+}
+.logo h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+.menu {
+  width: 80%;
+  text-align: right;
+}
+.menu a {
+  color: #1e6296;
+  font-size: 21px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+.menu a:hover {
+  color: #378ed1;
+}
+.menu .btn-vamos {
+  background-color: #091b29;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: white;
+  font-size: 21px;
+}
+.menu .btn-vamos:hover {
+  background-color: #6bb0e4;
+  color: white;
+}
+.logo-img {
+  width: 35px;
+  height: 35px;
+}
+footer {
+  background-color: #06090c;
+}
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration:  none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+.socialIcons a:hover {
+background-color: #111;
+transition: 0.7s;
+}
+.socialIcons a:hover i{
+color: white;
+transition: 0.7s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+      list-style: none;
+
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a {
+  opacity: 1;
+}
+.footerbtn {
+  background-color: #070c0f;
+  padding: 20px;
+  text-align: center;
+  min-width: 100%;
+}
+.footerbtn p {
+  color: white;
+  font-size: 1.5rem;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 8px 5px;
+}
+.atuacao {
+  background-image: url("../public/fuundo-dec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.atuacao h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+.atuacao p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 20px;
+}
+.profissao {
+  display: flex;
+}
+.atuacao-logo {
+  height: 150px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.prof-uni {
+  border: solid white 2px;
+  border-radius: 20px;
+  margin: 20px;
+  min-width: 300px;
+  max-height: 500px;
+}
+.prof-uni h3 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+.prof-uni p {
+  font-size: 1rem;
+  max-width: 300px;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+.slider {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+.navigation-bar {
+  position: absolute;
+  margin-top: 450px;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%);
+}
+input {
+  display: none;
+}
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background: white;
+  transition: 0.4s;
+}
+.slides {
+  display: flex;
+  width: 400%;
+  height: 100%;
+}
+.slide {
+  width: 25%;
+  transition: 0.5s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+
+@media (max-width: 700px) {
+  .footerNav ul {
+    flex-direction: column;
+  }
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }.atuacao h1 {
+    font-size: 2rem;
+  }.atuacao p {
+    font-size: 1rem;
+  }.profissao {
+    display: grid;
+  }.atuacao-logo {
+    width: 500px;
+    height: 250px;
+    margin-left: 60px;
+  }.prof-uni p {
+    margin-left: 120px;
+  }.menu a {
+    font-size: 14px;
+  }
+  .menu .btn-vamos {
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+  }
+}

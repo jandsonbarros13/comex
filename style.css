@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.center-menu {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid #1e6296;
+}
+.logo {
+  color: #1e6296;
+}
+.logo h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+.menu {
+  width: 80%;
+  text-align: right;
+}
+.menu a {
+  color: #1e6296;
+  font-size: 21px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+.menu a:hover {
+  color: #378ed1;
+}
+.menu .btn-vamos {
+  background-color: #091b29;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: white;
+  font-size: 21px;
+}
+.menu .btn-vamos:hover {
+  background-color: #6bb0e4;
+  color: white;
+}
+.main-center{
+  background-image: url('./public/img.jpg');
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+.main-titulo {
+  color: #286ea3;
+  font-size: 50px;
+}
+.main p {
+  color: darkgray;
+  font-size: 25px;
+  margin: 10px 0;
+}
+.main-btn {
+  background-color: #1e6296;
+  display: inline-block;
+  padding: 8px 40px;
+  font-size: 25px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.main-btn:hover {
+  background-color: #6bb0e4;
+  color: white;
+}
+.diferenciais-projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.diferencial-pages {
+  color: white;
+  background-color: black;
+  width: 23%;
+  margin-right: 5px;
+  margin-left: 18px;
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.diferencial-pages h2 {
+  font-size: 2rem;
+  color: #6bb0e4;
+}
+.diferencial-pages p {
+  color: white;
+  font-size: 1.5rem;
+}
+.diferencial-pages i {
+  color: #6bb0e4;
+  font-size: 50px;
+  margin: 10px;
+}
+.logo-img {
+  width: 35px;
+  height: 35px;
+}
+.logo-comp {
+  display: inline;
+}
+@media screen  and (max-width: 760px){
+  .diferencial-pages{
+    width: 100%;
+  }
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.slider {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-top: -40px;
+  margin-bottom: 100px;
+}
+.navigation-bar {
+  position: absolute;
+  margin-top: 450px;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%);
+}
+input {
+  display: none;
+}
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background: white;
+  transition: 0.4s;
+}
+.slides {
+  display: flex;
+  width: 400%;
+  height: 100%;
+}
+.slide {
+  width: 25%;
+  transition: 0.5s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+
+section .sobre{
+  padding: 80px 0;
+}
+.chamada-sobre {
+  text-align: center;
+  width: 100%;
+}
+.chamada-sobre h2 {
+  color: #091b29;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.chamada-sobre p {
+  font-size: 16px;
+  color: gray;
+  margin: 20px 0;
+}
+.conteudo-sobre {
+  display: flex;
+  align-items: center;
+}
+.conteudo-sobre3 {
+  display: flex;
+  align-items: center;
+}
+.conteudo-sobre3 .btn-sobre{
+  align-items: flex-end;
+  margin-left: 620px;
+  margin-top: 100px;
+}
+.conteudo-sobre p{
+  max-width: 600px;
+  font-size: 20px;
+  margin-left: 35px;
+  margin-right: 20px;
+}
+.conteudo-sobre2 {
+  margin-left: 40px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.conteudo-sobre2 i {
+  color: green;
+  font-size: 2rem;
+}
+.btn-sobre{
+  background-color: #091b29;
+  color: white;
+  font-size: 1.5rem;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  align-items: flex-end;
+}
+.conquistas{
+  background-color: black;
+  padding: 20px 0;
+}
+.conquista-single {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  width: 22%;
+  margin-right: 3%;
+  text-align: center;
+  color: white;
+
+}
+.center2 {
+    max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.conquistas h1 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+.conquistas h1 i {
+  color: green;
+  margin-right: 10px;
+}
+.conquista-single h1 {
+  font-size: 1.6rem;
+}
+.conquista-single li {
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+}
+@media screen  and (max-width: 760px){
+  .menu a {
+    font-size: 14px;
+  }
+  .menu .btn-vamos {
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+  }
+  .diferencial-pages{
+    width: 100%;
+  }
+  .conteudo-sobre p {
+    width: 100%;
+  }
+  .conteudo-sobre3 {
+    display: block;
+    overflow-x: hidden;
+  }
+  .conteudo-sobre3 .btn-sobre{
+    margin-left: 20px;
+  }
+}
+footer {
+  background-color: #06090c;
+}
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration:  none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+.socialIcons a:hover {
+background-color: #111;
+transition: 0.7s;
+}
+.socialIcons a:hover i{
+color: white;
+transition: 0.7s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+      list-style: none;
+
+}
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a {
+  opacity: 1;
+}
+.footerbtn {
+  background-color: #070c0f;
+  padding: 20px;
+  text-align: center;
+  min-width: 100%;
+}
+.footerbtn p {
+  color: white;
+  font-size: 1.5rem;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 8px 5px;
+}
+
+@media (max-width: 700px) {
+  .footerNav ul {
+    flex-direction: column;
+  }
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
