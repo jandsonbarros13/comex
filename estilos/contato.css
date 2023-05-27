@@ -198,7 +198,7 @@ transition: 0.7s;
   margin: 8px 5px;
 }
 .capa {
-  background-image: url("../public/vagas.jpeg");
+  background-image: url("../imagens/vagas.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -265,7 +265,7 @@ transition: 0.7s;
     margin: 10px;
   }
   .capa {
-    background-image: url("../public/capa.avif");
+    background-image: url("../imagens/capa.avif");
     background-size: cover;
     background-repeat: no-repeat;
     width: 700px;

@@ -122,7 +122,7 @@ transition: 0.7s;
   margin: 8px 5px;
 }
 .todo-prof {
-  background-image: url("../public/atuacao/fundo.jpg");
+  background-image: url("../imagens/atuacao/fundo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -165,7 +165,7 @@ transition: 0.7s;
   padding-bottom: 30px;
 }
 .capa-prof{
-  background-image: url("../public/atuacao/capa2.jpg");
+  background-image: url("../imagens/atuacao/capa2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;

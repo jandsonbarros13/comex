@@ -122,7 +122,7 @@ transition: 0.7s;
   margin: 8px 5px;
 }
 .container-sobre {
-  background-image: url("../public/fundo-roxo.avif");
+  background-image: url("../imagens/fundo-roxo.avif");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
